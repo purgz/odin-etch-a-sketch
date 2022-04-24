@@ -1,0 +1,13 @@
+.container{
+    display: flex;
+}
+
+.square{
+    width: 20px;
+    aspect-ratio: 1/1;
+    background-color: grey;
+}
+
+.row{
+    display: flex;
+}
