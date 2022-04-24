@@ -8,17 +8,36 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <button id = "darken">Darken</button>
-    <button id = "pickColors">Pick colors</button>
-    <button id = "randomColors">Random Colors</button>
-    <button id = "clear">Clear</button>
-    <input type="color" id="colorSelect">
-    <input type="range" min="1" max = "100" value = "16" class = "slider" id = "squareRange">
-
-    <div id = "container">
-        <div id = "grid"></div>
+     
+    <div id = "header">
+        <h1>Etch a Sketch</h1>
     </div>
-   
+
+    <div id = "main">
+        <div id = "options">
+            
+            <input type="color" id="colorSelect">
+            <button id = "pickColors">Pick colors</button>
+            <button id = "randomColors">Random Colors</button>
+            <button id = "clear">Clear</button>
+            <button id = "darken">Darken</button>
+
+            <input type="range" min="1" max = "100" value = "16" class = "slider" id = "squareRange">
+        </div>
+    
+    
+        
+        <div id = "grid"></div>
+        
+    </div>
+
+    
+    <div id = "footer">
+        <p>Henry Brooks - The odin project</p>
+    </div>
+
+ 
+
     
     <script src = "script.js"></script>
 </body>
